@@ -1,6 +1,10 @@
 name: Virtual Assistant
 
-on: [issues, pull_request]
+# on: [issues, pull_request]
+on:
+  push:
+    branches: "master"
+
 
 jobs:
   Assistant:
